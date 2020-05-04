@@ -1,0 +1,423 @@
+body{
+  background-image: url("Kaa.jpg");
+    background-size: cover;
+
+}
+/*---------------------------*/
+#flt1{
+  height: 20px; 
+  background:transparent;
+  float: left;
+}
+#flt2{
+  height: 20px; 
+  background:transparent;
+  clear: both;
+}
+
+/*---------------------------*/
+#main_div {
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  background:;
+  padding: 10px;
+  grid-template: "a a"
+                 "b e"
+                 "c e"
+                 "d e";
+                /* "f f"; */
+}
+
+/*---------------------------*/
+#main_div div {
+  background: aqua;
+  font-size: 25px;
+  text-align: center;
+}
+
+#main_div > div:nth-child(5) {
+  background-image:url("Kaa.jpg");
+  background-size: cover;
+  border: 1px solid green;
+  color: white;
+}
+
+
+
+/*---------------------------*/
+#box1 {
+  grid-area: a;
+  height:40px;
+  border-radius:20px;
+  background:;
+}
+
+
+/*---------------------------*/
+#box2 {
+  grid-area: b;
+  height:140px;
+  width:;
+  border-radius:30px;
+  /* overflow-y:scroll; */
+}
+#box2 > p {
+  font-size:20px;
+  text-align:;
+  flex-wrap:;
+}
+
+
+
+  /* overflow-y:scroll; */
+/*---------------------------*/
+#box3 {
+  grid-area: c;
+   height:140px;
+  width:;
+  border-radius:30px;
+  /* overflow-y:scroll; */
+}
+
+#box3 > p {
+  font-size:20px;
+}
+
+
+  /* overflow-y:scroll; */
+/*---------------------------*/
+#box4 {
+  grid-area: d;
+   height:140px;
+   width:;
+  border-radius:30px;
+  /* overflow-y:scroll; */
+}
+#box4 > p {
+  font-size:20px;
+}
+/*---------------------------*/
+#box5 {
+  grid-area: e;
+   height:500px;
+   width:;
+  border-radius:50px;
+  
+}
+
+
+#box5 > p {
+  font-size:20px;
+}
+/*---------------------------*/
+#box6 {
+  grid-area:f;
+  
+}
+/*---------------------------*/
+#stars>div{
+  float: left;
+}
+
+/* .extra {
+  display:none;
+}
+ */
+
+/*---------------------------*/
+
+/* Extra small devices (phones, 600px and down) */
+
+@media screen and (max-width: 600px) {
+
+ #main_div {
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  padding: 10px;
+  grid-template: "a"
+                 "b"
+                 "c"
+                 "d"
+                 "e";
+}
+
+} 
+
+/* Mowgli ---------------------*/
+/* Mowgli ---------------------*/
+
+#mg_div {
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  background:;
+  padding: 10px;
+  grid-template: "a a"
+                 "b b"
+                 "c c";
+                 
+                /* "f f"; */
+}
+
+#mg_div div {
+  background: aqua;
+  font-size: 25px;
+  text-align: center;
+}
+
+#mg_div > div:nth-child(2) {
+  background-image:url("Mowgli2.jpg");
+  background-size: cover;
+  border: 1px solid green;
+  color: white;
+}
+/*----------------------*/
+#box1m {
+  grid-area: a;
+  height:;
+  border-radius:20px;
+  background:;
+}
+
+#box2m {
+  grid-area: b;
+  height:250px;
+  width:;
+  border-radius:30px;
+}
+
+#box3m {
+  grid-area: c;
+  height:300px;
+  width:;
+  border-radius:30px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+
+@media screen and (max-width: 600px) {
+
+  #mg_div {
+   display: grid;
+   grid-gap: 30px;
+   grid-template-columns: auto;
+   grid-template-rows: auto;
+   padding: 10px;
+   grid-template: "a"
+                  "b"
+                  "c";
+                
+ }
+ 
+ } 
+
+/* Bagheera ---------------------*/
+/* Bagheera ---------------------*/
+/* Bagheera ---------------------*/
+
+#mb_div {
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  background:;
+  padding: 10px;
+  grid-template: "a a"
+                 "b b"
+                 "c c";
+                 
+                /* "f f"; */
+}
+
+/*---------------------------*/
+
+#mb_div {
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  background:;
+  padding: 10px;
+  grid-template: "a a"
+                 "b b"
+                 "c c";
+                 
+                /* "f f"; */
+}
+
+
+#mb_div div {
+  background: aqua;
+  font-size: 25px;
+  text-align: center;
+}
+
+#mb_div > div:nth-child(2) {
+  background-image:url("Bagheera.jpg");
+  background-size: cover;
+  border: 1px solid green;
+  color: white;
+}
+
+/*---------------------------*/
+
+
+#box1b {
+  grid-area: a;
+  height:;
+  border-radius:20px;
+  background:;
+}
+/*---------------------------*/
+
+#box2b {
+  grid-area: b;
+  height:220px;
+  width:;
+  border-radius:30px;
+}
+  /* overflow-y:scroll; */
+/*---------------------------*/
+ 
+#box3b {
+  grid-area: c;
+  height:300px;
+  width:;
+  border-radius:30px;
+  }
+  /* overflow-y:scroll; */
+  
+/*---------------------------*/
+
+/* .extra {
+  display:none;
+}
+ */
+
+/*---------------------------*/
+
+/* Extra small devices (phones, 600px and down) */
+
+@media screen and (max-width: 600px) {
+
+  #mb_div {
+   display: grid;
+   grid-gap: 30px;
+   grid-template-columns: auto;
+   grid-template-rows: auto;
+   padding: 10px;
+   grid-template: "a"
+                  "b"
+                  "c";
+                
+ }
+ 
+ } 
+
+ /* Sher Khan ---------------------*/
+/* Sher Khan ---------------------*/
+/* Sher Khan ---------------------*/
+
+#ms_div {
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  background:;
+  padding: 10px;
+  grid-template: "a a"
+                 "b b"
+                 "c c";
+                 
+                /* "f f"; */
+}
+
+/*---------------------------*/
+
+#ms_div {
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  background:;
+  padding: 10px;
+  grid-template: "a a"
+                 "b b"
+                 "c c";
+                 
+                /* "f f"; */
+}
+
+
+#ms_div div {
+  background: aqua;
+  font-size: 25px;
+  text-align: center;
+}
+
+#ms_div > div:nth-child(2) {
+  background-image:url("Shere\ Khan.jpg");
+  background-size: cover;
+  border: 1px solid green;
+  color: white;
+}
+
+/*---------------------------*/
+
+
+#box1s {
+  grid-area: a;
+  height:;
+  border-radius:20px;
+  background:;
+}
+/*---------------------------*/
+
+#box2s {
+  grid-area: b;
+  height:220px;
+  width:;
+  border-radius:30px;
+}
+  /* overflow-y:scroll; */
+/*---------------------------*/
+ 
+#box3s {
+  grid-area: c;
+  height:300px;
+  width:;
+  border-radius:30px;
+  }
+  /* overflow-y:scroll; */
+  
+/*---------------------------*/
+
+/* .extra {
+  display:none;
+}
+ */
+
+/*---------------------------*/
+
+/* Extra small devices (phones, 600px and down) */
+
+@media screen and (max-width: 600px) {
+
+  #ms_div {
+   display: grid;
+   grid-gap: 30px;
+   grid-template-columns: auto;
+   grid-template-rows: auto;
+   padding: 10px;
+   grid-template: "a"
+                  "b"
+                  "c";
+                
+ }
+ 
+ } 
